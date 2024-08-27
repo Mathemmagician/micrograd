@@ -19,7 +19,7 @@ cargo add rustygrad
 
 ##### Value API
 
-`Value` can be used to construct arbitrary DAG Neural Nets (directed acyclic graph). One way to think about it, is it can be used to model common mathematical expressions. For example,
+`Value` can be used to construct arbitrary DAG Neural Nets. For example, it can be used to model common mathematical expressions,
 
 $$ g = [(a + b) * (c + d)] ^ 2 $$
 
@@ -42,7 +42,7 @@ fn main() {
 ![Graph visualization](examples/plots/value.svg)
 
 
-Below is more complicated example (from micrograd) designed to show most of the supported Value operations `// and their Python micrograd version`
+Below is another example designed to show most of the supported Value operations `// and their Python micrograd version`
 
 ```Rust
 fn main() {
